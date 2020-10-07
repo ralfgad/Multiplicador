@@ -18,6 +18,12 @@ Para ayudaros a la visión general de los componentes generales necesarios que s
 
 ![Esquema](imagenes/ESQUEMA_booth.jpg) 
 
+## Verificación
+
+Con el fin de que podáis probar vuestro banco de verificación cuanto antes  sin necesidad de tener el diseño terminado, se os proporciona  un multiplicador de pruebas (multipli_parallel.sv) con tamaño de palabras y ciclos para obtener el resultado de la multiplicacion parametrizables, así como  un test_bench básico del mismo (tb_multipli.sv) para comprender su funcionamiento. Este diseño lo podéis utilizar como DUV alternativo hasta disponer del DUV definitivo que hayan estado generando vuestros compañeros dedicados al diseño.
+
+ 
+
 ## Entregable
 
 Se os proporciona un ejemplo completo de entregable que consiste en la verificación con systemverilog de una FIFO, en este caso basada en una RAM de doble puerto.
