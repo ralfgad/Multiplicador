@@ -10,13 +10,17 @@ Este repositorio ha sido creado para :
 Se os ha colocado un ejemplo de entregable para que veais cómo debería ser la entrega
 
 ## Diseño
-Se os proporciona el componente fundamental del data-path que no es otro que un shifter 2D. Este compoenente será descrito, y explicado en las sesiones de teoría y se puede observar que ejercerá todo el papel asociado a la variable "shifter" del siguiente ASM solución de la FIFO
+Se os proporciona el ASM de la solución
 
-![ASM](imagenes/ASM_shifter_def2.jpg) 
+![ASM](imagenes/ASM_booth.jpg) 
 
-## Verificación
+Para ayudaros a la visión general de los componentes generales necesarios que se implican por el ASM anterior, incluimos el siguiente esquema:
 
-Se os proporciona un ejemplo completo de verificación con systemverilog de una FIFO, en este caso basada en una RAM de doble puerto.
+![Esquema](imagenes/ESQUEMA_booth.jpg) 
+
+## Entregable
+
+Se os proporciona un ejemplo completo de entregable que consiste en la verificación con systemverilog de una FIFO, en este caso basada en una RAM de doble puerto.
 
 Si quereis ejecutar el ejemplo, muévete al directorio ejemplo_entregable/verificacion_entegable y ejecuta
 
@@ -25,8 +29,5 @@ Si quereis ejecutar el ejemplo, muévete al directorio ejemplo_entregable/verifi
 - en caso de trabajar con linux
 - en el caso de trabajar con windows , ejecuta el mismo script una vez arrancado questasim
 
-En el caso que quieras utilizar este banco de pruebas en vuestro diseño:
-1. Añadid vuestros ficheros de diseño al subdirectorio de diseño  del ejemplo
-2. Modificad el script para que compile vuestros ficheros fuente del diseño (en lugar de los de la FIFO basada en RAM)
-3. Y por supuesto no os olvidéis de sustituir en el fichero fifo_top_duv (que se encuentra en el subdirectorio de verificación)  la FIFO instanciada. Ahora debería instanciar vuestra FIFO .
+
 
