@@ -3,7 +3,7 @@
 
 
 Este repositorio ha sido creado para :
-- Servir como punto de partida de vuestra primera tarea. 
+- Servir como punto de partida de vuestra segunda tarea tarea. 
 - Servir para el equipo con el fin de tener un control de versiones adecuado y por último 
 - Servir como alojamiento del entregable que constará fundamentalmente y necesariamente de los dos subdirectorios identificados como entregables y que contienen a su vez instrucciones específicas para hacer una entrega correcta.
 
